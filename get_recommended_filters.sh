@@ -5,12 +5,11 @@ touch input.csv
 
 # declare an array of urls
 urls=(
-  https://abpvn.com/vip/thao.txt?ublock
-  https://abpvn.com/filter/abpvn-aO11fb.txt?ublock
+  https://abpvn.com/vip/thao.txt
+  https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain.txt
   https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt
   https://filters.adtidy.org/extension/ublock/filters/2.txt
   https://raw.githubusercontent.com/bigdargon/hostsVN/master/extensions/gambling/filter.txt
-  https://badmojr.github.io/1Hosts/Lite/adblock.txt
 )
 
 # loop through the urls and download each file with curl
